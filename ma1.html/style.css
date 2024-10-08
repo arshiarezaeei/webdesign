@@ -49,5 +49,9 @@ font-weight: bolder;
 color: blue;
 
 }
+footer a{
+
+    display: block;
+}
 
 
