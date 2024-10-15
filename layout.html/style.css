@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+
+}
+
+.header {
+    background-color: #666;
+    text-align: center;
+    color: white;
+    border: 5px solid #666;
+    padding: 50px;
+}
+
+article {
+    border: 1px solid white;
+    height: 200px;
+    width: 75%;
+    float: right;
+    padding: 15px;
+   
+   
+}
+
+main>article>a {
+    display: block;
+    padding: 5px;
+
+
+}
+
+.links {
+    float: left;
+    width: 25%;
+    background-color: #cccccc;
+    padding: 15px;
+}
+
+.footer {
+    clear: left;
+padding: 30px;
+    background-color: #666;
+    text-align: center;
+    color: white;
+}
+main>article>section{
+border: 1px solid black;
+width: 40%;
+float: left;
+padding: 15px;
+display: block;
+margin: 15px;
+}
