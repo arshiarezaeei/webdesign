@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+
+}
+section>div{
+    float: left;
+   
+}
+.menu{
+border: 6px solid black;
+width: 20%;
+text-align: center;
+padding: 15px;
+height: 150px;
+}
+.header{
+   
+    border: 6px solid black;
+/* width: 40%; */
+text-align: center;
+padding: 15px;
+}
+.main{
+border: 6px solid black;
+width: 40%;
+text-align: center;
+padding: 10px;
+}
+.footer{
+border: 6px solid black;
+width: 40%;
+text-align: center;
+padding: 10px;
+}
+.menu2{
+border: 6px solid black;
+width: 40%;
+text-align: center;
+padding: 15px;
+height: 150px;
+float: right;
+}
