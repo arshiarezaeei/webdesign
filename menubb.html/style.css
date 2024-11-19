@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+
+}
+
+section {
+    background-color: #333;
+    width: 100%;
+    color: white;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    
+
+
+}
+
+li:hover {
+    background-color: #04a96d;
+   
+}
+
+ul {
+
+    padding: 0px;
+}
+#Help{
+    background-color: #04a96d;
+    float: right;
+    
+}
