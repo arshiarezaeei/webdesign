@@ -1,0 +1,95 @@
+* {
+
+    box-sizing: border-box;
+}
+
+main {
+    background-image: url(action-backlit-beach-1046896.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    position: relative;
+    border-radius: 20px;
+}
+
+#toptext {
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#caption {
+    position: absolute;
+    color: white;
+    font-size: xx-large;
+    bottom: 15px;
+    left: 650px;
+
+}
+
+.arrows {
+    position: absolute;
+    font-size: xx-large;
+    background-color: rgba(100, 100, 100, .4);
+    padding: 25px;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+
+#arrowright {
+    right: 30px;
+    top: 450px;
+}
+
+#arrowleft {
+    left: 30px;
+    top: 450px;
+}
+
+.arrows:hover {
+
+
+
+    cursor: pointer;
+    background-color: rgba(50, 50, 50, .8);
+}
+section>span{
+border-radius: 50%;
+padding: 15px;
+margin-left: auto;
+margin-right: auto;
+height: 15px;
+background-color: rgb(112, 113, 113);
+margin: 0px 2px;
+display: inline-block;
+cursor: pointer;
+}
+#first{
+background-color: rgb(39, 39, 39);
+
+}
+#secend{
+
+    background-color: rgb(57, 57, 58);
+}
+section{
+margin: 15px auto;
+width: 10%;
+}
+#first:hover{
+background-color: rgba(100, 100, 100, .3);
+
+}
+#secend:hover{
+
+background-color: rgba(50, 50, 50, .8);
+
+}
+#third:hover{
+
+    background-color: rgba(100, 100, 100, .4);
+}
