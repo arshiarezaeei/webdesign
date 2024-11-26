@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: vazirmatn;
+    direction: ltr;
+}
+
+section {
+    background-color: #333;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin: 0;
+}
+
+div#discount {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    position: sticky;
+    width: 24.79%;
+    cursor: pointer;
+
+}
+
+li:hover {
+    background-color: #04a96d;
+
+}
+
+ul {
+
+    padding: 0px;
+}
+
+#mainful {
+    background-image: url(img_woods_wide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    position: relative;
+
+}
+
+#topnumber {
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.arrows {
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+    background-color: rgba(100, 100, 100, .4);
+    border-radius: 50%;
+    padding: 15px;
+    width: 54px;
+    height: 69px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#arrowright {
+    right: 20px;
+    bottom: 450px;
+}
+
+#arrowleft {
+    left: 20px;
+    bottom: 450px;
+}
+
+.arrows:hover {
+    background-color: rgba(50, 50, 50, .8);
+
+}
+
+#topic {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+div>img {
+    display: inline-block;
+    opacity: .9;
+    width: 16.40%;
+    cursor: pointer;
+
+}
+
+div>img:hover {
+
+    opacity: .6;
+}
+
+article>div {
+    float: left;
+    width: 33.3%;
+    border: 2px solid black;
+    height: 300px;
+    padding: 20px;
+}
+
+#lorem {
+
+    bottom: 20px;
+}
+
+article>div>a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+}
+
+.href {
+
+    color: blue;
+}
+
+footer {
+    clear: left;
+
+    background-color: rgb(10, 10, 90);
+    height: 300px;
+    width: 100%;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+
+}
+
+#img {
+    cursor: pointer;
+    width: 100%;
+}
+
+footer>address>p>span {
+    font-size: 22px;
+    font-style: bold;
+    text-decoration: underline;
+
+}
+
+footer>div {
+    float: left;
+    width: 25%;
+
+}
+
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+
+}
+
+#aboutus {
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+main#aboutus>div {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    font-size: 50px;
+    color: azure;
+}
+
+#aboutusdiv {
+    padding: 20px;
+
+}
+
+#ourteam {
+    text-align: center;
+    color: orangered;
+    padding: 20px;
+}
+
+.ourteampic>div {
+    float: left;
+    width: 23%;
+    border: 2px solid burlywood;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #d6d6d6;
+    margin: 10px;
+    box-shadow: 10px 10px 10px gray;
+
+}
+
+.ourteampic>div>p {
+    padding: 15px;
+
+
+}
+
+.img {
+
+    border-radius: 50%;
+    display: block;
+    width: 100px;
+    border: 1px solid orange;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 15px;
+
+}
+
+.topic {
+    text-align: center;
+
+}
+
+.h3 {
+    text-align: center;
+
+}
+
+@media(max-width:700px) {
+    .ourteampic>div {
+        float: none;
+        width: 100%;
+       
+
+    }
+    li{
+        width: 24.30%;
+
+    }
+    footer{
+
+        
+    }
+
+
+
+}
