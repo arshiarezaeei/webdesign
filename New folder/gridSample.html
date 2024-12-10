@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .item1 {
+            grid-area: header;
+        }
+
+        .item2 {
+            grid-area: menur;
+        }
+
+        .item3 {
+            grid-area: main;
+        }
+
+        .item4 {
+            grid-area: right;
+        }
+
+        .item5 {
+            grid-area: footer;
+        }
+        .item6{
+
+            grid-area: menul;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'menur header header header header menul'
+                'menur main main  right right menul'
+                'menur footer footer footer footer menul';
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+        }
+
+        .grid-container>div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        @media(max-width:700px) {
+            .grid-container{
+                display: grid;
+            grid-template-areas:
+                'header header header header header header'
+                'main main main  main main main'
+                'right right right right right right'
+                'menul menul menul menul menul menul'
+                'menur menur menur menur menur menur'
+                'footer footer footer footer footer footer';
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+                
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+  
+
+    <div class="grid-container">
+        <div class="item1">Header</div>
+        <div class="item2">Menul</div>
+        <div class="item6">menur</div>
+        <div class="item3">Main</div>
+        <div class="item4">Right</div>
+        <div class="item5">Footer</div>
+    </div>
+
+</body>
+
+</html>
