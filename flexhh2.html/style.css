@@ -1,0 +1,57 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+}
+header,footer{
+    background-color: lightslategray;
+    height: 60px;
+    text-align: center;
+    padding: 15px;
+}
+main{
+
+    display: flex;
+    text-align: center;
+    padding: 15px;
+   
+}
+main>div{
+
+   width: 25%;
+}
+div:nth-child(odd) {
+
+background-color: lightslategrey;
+padding: 15px;
+height: 100px;
+
+}
+div:nth-child(even) {
+
+    background-color:bisque;
+    padding: 15px;
+    height: 150px;
+    font-size: larger;
+    
+    }
+@media(max-width:700px){
+main{
+
+    display: block;
+    
+}
+
+
+
+
+}
+.boxmain{
+
+    margin: 5px auto;
+}
+.headerf{
+
+    background-color: black;
+    color: white;
+}
