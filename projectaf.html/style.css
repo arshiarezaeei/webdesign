@@ -1,0 +1,12 @@
+div>input{
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: width 3s;
+    width: 20%;
+    background-color: aqua;
+    height: 25px;
+}
+
+div>input:hover{
+    width: 80%;
+}
