@@ -1,0 +1,14 @@
+*{
+    direction: rtl;
+}
+nav{
+    float: right;
+   
+}
+#name{
+    color: purple;
+    font-size: x-large;
+}
+li>a:hover{
+    color: red;
+}
