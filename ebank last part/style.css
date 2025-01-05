@@ -1,0 +1,338 @@
+* {
+    direction: rtl;
+    font-family: vazirmatn;
+}
+
+#form:hover {
+    color: red;
+}
+
+nav {
+    background-color:   #57317a;
+  
+}
+#button {
+    margin: auto 0px;
+}
+
+#form {
+    color: white;
+}
+
+#icon:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#icon {
+ color: white;
+}
+
+#slider {
+    margin-top: 50px;
+}
+#bordertext {
+    border: 5px solid #eeefee;
+    position: absolute;
+    background-color: #eeefee;
+    right: 40px;
+    bottom: 100px;
+    width: 30%;
+    display: block;
+   
+}
+
+#button2 {
+    background-color: #57317a;
+}
+#button2:hover {
+    background-color: red;
+}
+
+hr {
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+}
+#jombotron {
+    margin-right: 80px;
+    background-color: #573488;
+    width: 46%;
+}
+
+
+#button3 {
+    background-color: red;
+    color: white;
+}
+#button3:hover {
+    color: red;
+    background-color: white;
+}
+.groupbutton{
+    background-color:#f2f2f2 ;
+    margin-right: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    
+    height: 180px;
+}
+.groupbutton:hover{
+    color: red;
+}
+.container1{
+    border: 2px solid white;
+    height: 500px;
+    width: 40%;
+    float: left;
+   margin-left: 90px;
+}
+.topic{
+    margin-right: 20px;
+}
+.information{
+    margin-right: 65px;
+    border-bottom: 1px solid #dddddd;
+}
+.groupbuttonfix{
+    margin-right: 80px;
+}
+.h6topic:hover{
+color: red;
+cursor: pointer;
+}
+.countainernews{
+    clear: both;
+    background-color:#f8f8f8 ;
+    height: 900px;
+}
+.news{
+    margin-right: 150px;
+    
+}
+.container3{
+    width: 40%;
+    display: inline;
+}
+.newstext{
+    width: 30%;
+    margin-right: 350px;
+}
+.imgnews{
+    float: right;
+    margin-right: 70px;
+    cursor: pointer;
+}
+.h6size{
+    color: #57317a;
+}
+.borders{
+    border-top: 1px solid black;
+  
+  margin-right: 150px;
+}
+.linknews{
+    text-decoration: none;
+    cursor: pointer;
+}
+.linknews:hover{
+    color: red;
+}
+.newsleft{
+    clear: both;
+    cursor: pointer;
+    color: #57317a;
+    margin-top: 50px;
+    border-right: 1px solid black;
+    margin-left: 20px; 
+}
+.arrows{
+   cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+
+.imgtextnews{
+    color: #57317a;
+    
+}
+.bordernews{
+    border-top: 1px solid black;
+    
+    margin-top: 100px;
+    padding-top: 10px;
+}
+.stylelink{
+    text-decoration: none;
+
+}
+.newsrightside{
+    color: #57317a;
+    border-right: 1px solid black;
+}
+#buttonnews{
+    color: white;
+    background-color: #57317a;
+}
+#buttonnews:hover{
+    background-color: red;
+}
+
+
+.newsimgp{
+   border-top: 1px solid black;
+   margin-top: 40px;
+}
+.newsimg{
+  
+   
+    margin-top: 70px;
+}
+.stickyMenu{
+    position: fixed;
+    margin: 0;
+    z-index: 99;
+    display: block;
+}
+#slidermedia{
+    display: none;
+}
+/* menumediastyle */
+.imgmenu{
+    width: 20%;
+   margin-right: 250px;
+ }
+ .menu{
+     background-color: #3e1153;
+     height: 100px;
+     display: none;
+     position: fixed;
+     z-index: 99;
+ }
+ .menuli{
+     display: inline-block;
+    margin-right: 10px; 
+ }
+ 
+ .amenu{
+     text-decoration: none;  
+      color: white;
+ }
+ .amenu:hover{
+     color: red;
+ 
+ }
+ #icony{
+     color: white;
+     display: inline-block;
+     cursor: pointer;
+   
+ }
+ #icony:hover{
+     color: red;
+ }
+ #buttony{
+     margin-right: 35px;
+ }
+@media(max-width:700px){
+
+   .stickyMenu{
+    display: none;
+   }
+   .menu{
+    display: block;
+   }
+#bordertext {
+  display: none;
+}
+#slidermedia{
+
+    display: block;
+}
+#button2{
+  position: absolute;
+  right: 0px;
+  bottom: 5px;
+ 
+}
+
+#jombotron{
+    clear: both;
+    display: block;
+    width: 80%;  
+}
+.hhj>div{
+   display: block; 
+}
+.container1{
+        display: block;
+       
+        height: 900px;
+        width: 80%;
+}
+.bbbb{
+
+    margin-top: 1200px;
+}
+.container3{
+    margin-top: 500px;
+}
+
+.imgeb{
+    width: 20%;
+}
+.linkmenu{
+   
+   margin-right: 0px;
+}
+
+#button{
+    width: 20%;
+}
+.groupbuttonfix{
+    width: 80%;
+}
+
+}
+.span{
+   
+    margin-left:10px ;
+    
+    
+}
+#iconspan{
+    font-size: 50px;
+     border-right: 1px solid black;
+    
+}
+.divide{
+    border-top: 1px solid black;
+}
+.adivide{
+    text-decoration: none;
+    color: #57317a;
+    cursor: pointer;
+}
+#button4{
+    background-color: #57317a;
+}
+#button4:hover{
+    background-color: red;
+}
+.size{
+    font-size: 40px;
+    background-color: #dddddd;
+    padding: 5px; 
+}
+.apps{
+    margin-top: 30px;
+    cursor: pointer;   
+}
+.size:hover{
+    background-color: #573488;
+}
+footer{
+    background-color: #dddddd;
+    margin-top: 30px;
+}
