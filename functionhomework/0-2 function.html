@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="number" id="r">
+    <button onclick="fireclick()">ok</button>
+    <p id="showmet"></p>
+
+    <script>
+        let r=document.getElementById("r");
+        let prompt=document.getElementById("showmet");
+        
+        function area(rpara) {
+            return     rpara * rpara * Math.PI;
+        }
+
+        function fireclick() {
+
+
+           prompt.innerText=area(r.value)
+        }
+    </script>
+
+</body>
+</html>

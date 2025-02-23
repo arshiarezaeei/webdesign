@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ fname:   <input id="fname" type="text"><br>
+ lname:   <input id="lname" type="text"><br>
+ <button onclick="showHi()">ok</button>
+ <section id="showme"></section>
+   <script>
+    let fname=document.getElementById("fname");
+    let lname=document.getElementById("lname");
+    let section=document.getElementById("showme");
+    function greeting(fnamePara, lnamePara) {
+        return "Hi! "+ fnamePara + " " + lnamePara;
+    }
+    function showHi() {
+        section.innerHTML="<b>" + greeting(fname.value , lname.value) + "</b>";
+    }
+   </script>
+
+</body>
+</html>

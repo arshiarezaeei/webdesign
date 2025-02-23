@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="showme"></p>
+    <input type="text" id="uname">
+    <button onclick="showme()">ok</button>
+    <div >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis numquam sunt, recusandae quod, deserunt possimus ipsam est atque laborum dolor accusantium ex incidunt debitis consequatur? Dolor reiciendis voluptate sunt quis.</div>
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat officiis delectus maxime! Error earum dicta, consequatur optio doloremque, voluptates consectetur corporis in accusantium dolorum incidunt similique sint officia molestias quod?</p>
+    <section></section>
+
+
+    <hr>
+
+ 
+    <script>
+        
+       let para= document.getElementById("showme");
+       let uname= document.getElementById("uname");
+        function greeting(account) {
+             return "hi! " + account ;
+        }
+        function showme() {
+          
+            para.innerText= greeting(uname.value)
+        }
+
+     
+
+    </script>
+</body>
+</html>

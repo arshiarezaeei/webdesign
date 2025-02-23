@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="uname">
+    <input type="text" id="lname">
+    <button onclick="fire()">Ok</button>
+    <p id="showme"></p>
+
+
+
+    <script>
+        let para=document.getElementById("showme");
+        let uname=document.getElementById("uname");
+        let lname=document.getElementById("lname");
+
+        function greeting(unamePara,lnamePara) {
+            return "Hi! " + unamePara + " "+ lnamePara ;
+            
+        }
+        function fire() {
+            para.innerText=greeting(uname.value , lname.value);
+        }
+    </script>
+</body>
+</html>
